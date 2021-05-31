@@ -22,8 +22,9 @@ public class Ex07 {
 				divwonArray[i] = minus / wonArray[i];
 				minus = minus - divwonArray[i]*wonArray[i];
 			}
-			
+			System.out.println(wonArray[i] + "원 : " +divwonArray[i]);
 		}
+		/*
 		System.out.println("50000원 : " + divwonArray[0]);
 		System.out.println("10000원 : " + divwonArray[1]);
 		System.out.println("5000원 : " + divwonArray[2]);
@@ -34,7 +35,7 @@ public class Ex07 {
 		System.out.println("10원 : " + divwonArray[7]);
 		System.out.println("5원 : " + divwonArray[8]);
 		System.out.println("1원 : " + divwonArray[9]);
-			
+		*/
 		sc.close();
 		
 	}
